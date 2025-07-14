@@ -1,5 +1,6 @@
 package main
 
+// Ini soal no 1
 import (
 	"fmt"
 	"math"
