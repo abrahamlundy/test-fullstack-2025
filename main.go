@@ -31,11 +31,11 @@ var rdbglobal = redis.NewClient(&redis.Options{
 })
 
 func main() {
-	setRedisData("adss", "{
-			“realname”:”Aberto Doni Sianturi”,
-			“email”:”adss@gmail.com”
-			“password”:”f7c3bc1d808e0 . . . 441”
-			}");
+	// setRedisData("adss", "{
+	// 		“realname”:”Aberto Doni Sianturi”,
+	// 		“email”:”adss@gmail.com”
+	// 		“password”:”f7c3bc1d808e0 . . . 441”
+	// 		}");
 	// Struktur User
 	app := fiber.New()
 
